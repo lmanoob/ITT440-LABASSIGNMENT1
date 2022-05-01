@@ -9,7 +9,7 @@ int main(void) {
     pid_t pid = fork();
     char str1[20];
     if(pid == 0) {
-      printf("Enter Child Name \n");
+      printf("Enter Child name \n");
       scanf("%19s",str1);
       printf("%s \n",str1);
       exit(0);
